@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/devai
+    #jdbc????? ????jdbc:mysql://????????:??/????
+    username: devai
+    #?????
+    password: 85RWNk6R7TksFHtz
+    #?????
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #??????
+
+  ai:
+    openai:
+      api-key: sk-uq8kwbzUeyakWlsQxjeMWdVSc3IDQX4obwyxwNMt202XNvnh # 填写实际的API密钥
+      base-url: https://xiaoai.plus #路径
+      chat:
+        options:
+          model: gpt-4o
+  cos:
+    client:
+      accessKey: AKIDKh4Ldu682lJjx08BQdln2JY4bx8BTgia
+      secretKey: oRuAGCwSluthKvWMBqO0jNvGZmmaP6pS
+      region: ap-hongkong
+      bucket: csw-1329094323
+      basrurl: https://csw-1329094323.cos.ap-hongkong.myqcloud.com
